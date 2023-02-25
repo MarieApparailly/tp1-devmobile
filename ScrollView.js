@@ -4,6 +4,7 @@ import { StyleSheet, Text, View, Image, ScrollView } from "react-native";
 export default function App() {
   return (
     <ScrollView persistentScrollbar={true}>
+      <StatusBar style="auto" />
       <View style={styles.container}>
         <View style={[styles.brick, styles.blue1]} />
         <ScrollView horizontal={true} persistentScrollbar={true}>
